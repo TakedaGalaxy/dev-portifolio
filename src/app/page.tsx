@@ -7,6 +7,15 @@ export default function Home() {
       <h1>
         Em desenvolvimento !<br />
         🤝
+        <br />
+        <a
+          className={styles.ancora}
+          href="https://github.com/TakedaGalaxy"
+          target="_blank"
+          title="GitHub"
+        >
+          GitHub
+        </a>
       </h1>
     </main>
   );
