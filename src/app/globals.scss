@@ -1,0 +1,39 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: #c62d1d;
+    --secondary-color: #0b0b0b;
+    --tertiary-color: #e8e8e8;
+
+    --box-shadow-color : rgba(0, 0, 0, 0.2)
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #c62d1d;
+    --secondary-color: #f3f3f3;
+    --tertiary-color: #181818;
+    --box-shadow-color : rgba(0, 0, 0, 0.8)
+  }
+}
+
+html {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  font-size: 18px;
+
+  body {
+    padding: 0;
+    margin: 0;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+}

@@ -1,22 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import SectionBeingDeveloped from "@/components/sections/being-developed/being-developed";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>
-        Em desenvolvimento !<br />
-        🤝
-        <br />
-        <a
-          className={styles.ancora}
-          href="https://github.com/TakedaGalaxy"
-          target="_blank"
-          title="GitHub"
-        >
-          GitHub
-        </a>
-      </h1>
+    <main >
+      <SectionBeingDeveloped />
     </main>
   );
 }
